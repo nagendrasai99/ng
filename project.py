@@ -38,7 +38,7 @@ while(choice!=0):
         bulls=0
         cows=0
         if(n1==1):
-            score=100
+            score=0
             while(bulls<2):
                 num=input("enter 2 digit number: ")
                 if num=="-1":
@@ -62,7 +62,7 @@ while(choice!=0):
                     print("BUlls:",bulls,"COWS:",cows)
                     score=score-1
         elif(n1==2):
-            score=1000
+            score=0
             while(bulls<3):
                 num=input("enter 3 digit number: ")
                 if num=="-1":
@@ -86,7 +86,7 @@ while(choice!=0):
                     print("BUlls:",bulls,"COWS:",cows)
                     score=score-1
         elif(n1==3):
-            score=10000
+            score=0
             while(bulls<4):
                 num=input("enter 4 digit number: ")
                 if num=="-1":
